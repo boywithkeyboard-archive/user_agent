@@ -1,5 +1,5 @@
 import userAgent from './mod.ts'
-import { assertEquals } from 'https://deno.land/std@0.182.0/testing/asserts.ts'
+import { assertEquals } from 'https://deno.land/std@v0.183.0/testing/asserts.ts'
 
 Deno.test('userAgent', () => {
   const data = userAgent(
